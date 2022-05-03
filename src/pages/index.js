@@ -1,11 +1,10 @@
 import React from "react";
-import StyleWrapper from "../components/StyleWrapper";
 
 const Home = () => (
-  <StyleWrapper>
+  <div>
     <h1>My Landing Page</h1>
     <p>Thuis is my Landing Page</p>
-  </StyleWrapper>
+  </div>
 );
 
 export default Home;
