@@ -1,6 +1,21 @@
 {
   "name": "hello-gatsby",
+  "description": "A welcome introduction to GatsbyJS",
+  "badges": ["gatsbyjs", "nodejs", "reactjs"],
+  "author": "Kehinde Fasunle <kfasunle@gmail.com>",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^4.13.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "start": "npm run develop"
+  }
 }
