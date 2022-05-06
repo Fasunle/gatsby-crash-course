@@ -21,6 +21,7 @@
     "gatsby-plugin-postcss": "^5.13.0",
     "gatsby-source-filesystem": "^4.13.0",
     "gatsby-source-graphcms": "^2.8.0-next.1",
+    "gatsby-source-prismic": "^5.2.6",
     "postcss": "^8.4.13",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
