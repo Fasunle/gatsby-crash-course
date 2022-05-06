@@ -15,6 +15,14 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-prismic",
+      options: {
+        repositoryName: process.env.GATSBY_PRISMIC_REPO_NAME,
+        customTypesApiToken: process.env.PRISMIC_CUSTOM_TYPES_API_TOKEN,
+        accessToken: process.env.PRISMIC_ACCESS_TOKEN,
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "mdx-bio",
